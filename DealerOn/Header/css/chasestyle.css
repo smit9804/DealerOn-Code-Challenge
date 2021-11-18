@@ -1,0 +1,47 @@
+#container {
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* For the Kia of Charleston logo */
+.box1 {
+    color: black;
+    height: fit-content;
+}
+
+/* For the address of the dealership */
+.box2 {
+    color: black;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    /* padding-right: 200px; */
+    height: fit-content;
+}
+
+/* For the contact information (phone numbers) */
+.box3 {
+    color: black;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    font-weight: bolder;
+    /* margin-right: 200px; */
+    height: fit-content;
+}
+
+/* For the links to social media */
+.linkbox {
+    color: black;
+}
+
+/* To hide the chat button when screen size is below 480 pixels */
+@media only screen and (max-width: 480px) {
+    .chatbtn {
+        display: none;
+    }
+}
